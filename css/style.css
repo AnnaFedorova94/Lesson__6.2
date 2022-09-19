@@ -1,0 +1,125 @@
+@import "null.css";
+/*============ Fonts ================*/
+
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;}
+	
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;}
+
+   /* =========================================================== */
+
+body{
+	font-family: "lato", sans-serif ;
+	font-weight: 400;
+	font-size: 16px;
+}
+.container{
+	margin: 0 auto;
+	max-width:810px;
+}
+
+.center {
+	height: 50px;
+	background-color: aquamarine;
+	text-align: center;
+}
+.justify{
+	height: 50px;
+	background-color: aquamarine;
+	text-align: justify;
+}
+.left{
+	height: 50px;
+	background-color: aquamarine;
+	text-align: left;
+}
+.right{
+	height: 50px;
+	background-color: aquamarine;
+	text-align: right;
+}
+.text{
+	margin: 10px;
+}
+
+.line-through{
+	text-decoration: line-through;
+}
+.overline{
+	text-decoration: overline;
+}
+.underline{
+	text-decoration: underline;
+}
+.decoration p{
+	padding-bottom: 20px;
+}
+
+.capitalize{
+	text-transform: capitalize;
+}
+.cap{
+	color: black;
+	font-size: 30px;
+	font-weight: 900;
+}
+.low{
+	text-transform: lowercase;
+}
+.upp{
+	text-transform: uppercase;
+}
+
+.over{
+	margin-top: 20px;
+	background-color: #6d440e;
+	height: 50px;
+	border: 2px solid #000;
+}
+.vis{
+	overflow: visible;
+}
+.hid{
+	overflow: hidden;
+	height: 50px;
+	background-color: #6d440e;
+	margin-top: 50px;
+}
+.scroll{
+	overflow: scroll;
+	height: 100px;
+	background-color: #6d440e;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.bal{
+	background-color: aqua;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-bottom: 50px;
+	box-shadow: 10px 5px 2px rgb(111, 106, 106);
+	
+}
+.out{
+	opacity: 50%;
+	margin-bottom: 50px;
+
+}
